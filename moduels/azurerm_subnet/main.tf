@@ -12,3 +12,4 @@ resource "azurerm_subnet" "new-subnet2nd" {
   virtual_network_name = var.virtual_network_name
   address_prefixes     = var.address_prefixes
 }
+  
